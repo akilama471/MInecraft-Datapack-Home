@@ -1,6 +1,6 @@
 scoreboard objectives add sethome trigger "Set Home"
 scoreboard objectives add homes trigger "Homes"
-scoreboard objectives add home trigger "Home"
+scoreboard objectives add gohome trigger "Home"
 scoreboard objectives add namehome trigger "Name Home"
 scoreboard objectives add delhome trigger "Delete Home"
 scoreboard objectives add back trigger "Back"
