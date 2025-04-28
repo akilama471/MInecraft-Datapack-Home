@@ -1,9 +1,14 @@
 {
     "cSpell.words": [
         "cooldown",
+        "cooldowns",
         "Datapack",
         "delhome",
+        "goback",
+        "listhomes",
+        "mcfunction",
         "namehome",
-        "sethome"
+        "sethome",
+        "tellraw"
     ]
 }

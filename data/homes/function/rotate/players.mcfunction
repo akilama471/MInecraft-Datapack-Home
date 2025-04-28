@@ -1,3 +1,4 @@
+# homes:rotate/players.mcfunction
 execute store result score #remaining homes.dummy run data get storage homes:storage players
 data modify storage homes:storage temp set from entity @s UUID
 execute store success score #success homes.dummy run data modify storage homes:storage temp set from storage homes:storage players[-1].uuid

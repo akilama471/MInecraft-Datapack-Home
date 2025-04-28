@@ -1,7 +1,7 @@
 schedule clear homes:tick
-schedule clear homes:decrement_cooldowns
-schedule clear homes:try_to_mark_dimension
-execute as @e[type=minecraft:marker,tag=homes.dimension] at @s run function homes:remove_dimension_marker
+schedule clear homes:helper/decrement_cooldowns
+schedule clear homes:helper/try_to_mark_dimension
+execute as @e[type=minecraft:marker,tag=homes.dimension] at @s run function homes:helper/remove_dimension_marker
 data remove storage homes:storage players
 data remove storage homes:storage temp
 data remove storage homes:storage temp2

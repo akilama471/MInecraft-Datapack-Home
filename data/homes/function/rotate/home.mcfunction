@@ -1,3 +1,4 @@
+# homes:rotate/home.mcfunction
 data modify storage homes:storage players[-1].homes prepend from storage homes:storage players[-1].homes[-1]
 data remove storage homes:storage players[-1].homes[-1]
 scoreboard players remove #remaining homes.dummy 1

@@ -1,3 +1,4 @@
+# homes:rotate/homes.mcfunction
 execute store result score #homes homes.dummy run data get storage homes:storage players[-1].homes
 scoreboard players operation #remaining homes.dummy = #homes homes.dummy
 execute store result score #id homes.dummy run data get storage homes:storage players[-1].homes[-1].id

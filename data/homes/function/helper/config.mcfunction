@@ -6,4 +6,4 @@ tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_
 tellraw @s ["",{"text":"[ ✎ ]","color":"gray","clickEvent":{"action":"suggest_command","value":"/scoreboard players set #cooldown homes.config "},"hoverEvent":{"action":"show_text","contents":["",{"text":"Click to enter the number of seconds required to wait between uses of the home command.","color":"gray"},{"text":"\nAccepts: whole numbers 0+\nDefault: 0","color":"dark_gray"}]}}," Cooldown ",{"text":"(Current: ","color":"gray"},{"score":{"name":"#cooldown","objective":"homes.config"},"color":"gray"},{"text":")","color":"gray"}]
 tellraw @s {"text":"                                                                                ","color":"dark_gray","strikethrough":true}
 execute store result score #sendCommandFeedback homes.config run gamerule sendCommandFeedback
-execute if score #sendCommandFeedback homes.config matches 1 run function homes:hide_command_feedback
+execute if score #sendCommandFeedback homes.config matches 1 run function homes:helper/hide_command_feedback

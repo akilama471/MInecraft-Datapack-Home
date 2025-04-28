@@ -1,2 +1,2 @@
 data modify storage homes:storage players[-1].homes append value {}
-function homes:set_home
+function homes:cmd_sethome/set_home
