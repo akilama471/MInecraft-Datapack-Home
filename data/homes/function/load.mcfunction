@@ -3,6 +3,7 @@ scoreboard objectives add homes trigger "List Homes"
 scoreboard objectives add home trigger "Go Home"
 scoreboard objectives add namehome trigger "Name Home"
 scoreboard objectives add delhome trigger "Delete Home"
+scoreboard objectives add tpr trigger "Random Teleport"
 
 scoreboard objectives add homes.target dummy "Homes Config"
 scoreboard objectives add homes.delay dummy
@@ -17,6 +18,11 @@ scoreboard objectives add homes.back_x dummy
 scoreboard objectives add homes.back_y dummy
 scoreboard objectives add homes.back_z dummy
 scoreboard objectives add homes.back_dim dummy
+scoreboard objectives add tpr.x dummy
+scoreboard objectives add tpr.y dummy
+scoreboard objectives add tpr.z dummy
+scoreboard objectives add tpr.found dummy
+scoreboard objectives add tpr.attempts dummy
 
 execute unless score #limit homes.config matches 0.. run scoreboard players set #limit homes.config 1
 execute unless score #delay homes.config matches 0.. run scoreboard players set #delay homes.config 0

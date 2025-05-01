@@ -9,6 +9,7 @@
         "mcfunction",
         "namehome",
         "sethome",
+        "spreadplayers",
         "tellraw"
     ]
 }

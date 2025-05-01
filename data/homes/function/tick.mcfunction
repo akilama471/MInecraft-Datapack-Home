@@ -12,6 +12,9 @@ execute as @a[scores={homes=1..}] run function homes:cmd_listhomes/trigger_homes
 scoreboard players enable @a home
 execute as @a[scores={home=1..}] run function homes:cmd_gohome/trigger_gohome
 
+scoreboard players enable @a tpr
+execute as @a[scores={tpr=1..}] at @s run function homes:cmd_tpr/trigger_tpr
+
 scoreboard players enable @a namehome
 execute as @a[scores={namehome=1..}] run function homes:cmd_namehome/trigger_namehome
 execute as @a[scores={homes.target=1..}] run function homes:cmd_gohome/init_to_go_n_home
